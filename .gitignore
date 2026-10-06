@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+
+# .NET build output
+bin/
+obj/
+*.user
+.vs/
+
+# SQLite databases
+*.db
+*.db-shm
+*.db-wal
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+build/
+next-env.d.ts
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.idea/
+.vscode/
